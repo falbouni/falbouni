@@ -75,7 +75,7 @@
 
 .splitSection {
     width: min(1440px, 92%);
-    margin: 180px 200;
+    margin: 180px auto;
 }
 
 .splitGrid {
@@ -191,4 +191,43 @@
 
     display: flex;
     justify-content: flex-end;
+}
+
+@media (max-width: 900px) {
+
+  .page {
+    padding-top: 160px;
+  }
+
+  .hero h1,
+  .featureText h2,
+  .splitText h2,
+  .trailers h2 {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+
+  .splitGrid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .trailerGrid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .splitSection,
+  .feature,
+  .trailers {
+    margin-top: 100px;
+  }
+
+  .nextLink {
+    font-size: 42px;
+  }
+
+  .arrow {
+    font-size: 48px;
+  }
 }

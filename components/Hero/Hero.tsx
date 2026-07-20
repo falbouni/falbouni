@@ -25,7 +25,9 @@ export default function Hero() {
 
           <h1 className={styles.title}>
             <span className={styles.gold}>
-              Static doesn’t move people.
+              Static doesn’t
+              <br className={styles.mobileBreak} />
+              {" "}move people.
             </span>
 
             <br />
