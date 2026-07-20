@@ -1,0 +1,24 @@
+:root {
+    /* Colours */
+    --background: #080808;
+    --surface: #101010;
+    --surface-2: #171717;
+  
+    --text: #f5f5f5;
+    --muted: #999999;
+  
+    --gold: #b89654;
+    --gold-light: #d8bc7b;
+  
+    /* Layout */
+    --container: 1600px;
+    --section-spacing: 180px;
+  
+    /* Typography */
+    --hero-size: clamp(5rem, 10vw, 9rem);
+    --heading-size: clamp(2.6rem, 5vw, 4.5rem);
+    --body-size: 1.15rem;
+  
+    /* Animation */
+    --transition: .35s ease;
+  }
