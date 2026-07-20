@@ -1,10 +1,16 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(request: Request) {
   try {
+    const apiKey = process.env.RESEND_API_KEY;
+
+    if (!apiKey) {
+      throw new Error("RESEND_API_KEY is missing");
+    }
+
+    const resend = new Resend(apiKey);
+
     const formData = await request.formData();
 
     const name = formData.get("name") as string;
@@ -43,7 +49,11 @@ ${message}
     console.error(error);
 
     return NextResponse.json(
-      { success: false },
+      {
+        success: false,
+        error:
+          error instanceof Error ? error.message : "Unknown error",
+      },
       { status: 500 }
     );
   }

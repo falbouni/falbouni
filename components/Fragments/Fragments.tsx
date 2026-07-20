@@ -10,7 +10,7 @@ export default function Fragments() {
 
         <p className={styles.intro}>
           A new project with no audience or inherited brand with a deliberate
-          distance from its team's previous work.
+          distance from its team’s previous work.
         </p>
 
         <p className={styles.intro}>

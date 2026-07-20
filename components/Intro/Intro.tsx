@@ -19,7 +19,7 @@ export default function Intro() {
         <h2 className={styles.secondtitle}>
           <span>Projects that tell a story...</span>
           <br />
-          don&apos;t have to compete for attention anymore.
+          don’t have to compete for attention anymore.
         </h2>
 
       </div>
