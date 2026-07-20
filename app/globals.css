@@ -1,3 +1,4 @@
+@import "lenis/dist/lenis.css";
 @import "../styles/variables.css";
 
 * {
@@ -49,4 +50,17 @@ section {
 .container {
   width: min(var(--container), calc(100% - 96px));
   margin: auto;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
 }
