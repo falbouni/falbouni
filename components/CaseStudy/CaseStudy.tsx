@@ -72,7 +72,7 @@ export default function CaseStudy() {
 
           <div className={styles.copy}>
             <p>
-              A brand-new project with <span className={styles.gold}> zero awareness and deliberate distance </span> from its team’s prior work (Ampleforth, SPOT).
+              A brand-new project with <span className={styles.gold}> zero awareness and deliberate distance </span> from its team&apos;s prior work (Ampleforth, SPOT).
             </p>
 
             <p>

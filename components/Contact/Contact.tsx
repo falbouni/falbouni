@@ -48,7 +48,7 @@ export default function Contact() {
 
           <p className={styles.subtitle}>
             Please submit the brief form below for a comprehensive consultation.
-            We'll get back to you within 1–2 business days.
+            We&apos;ll get back to you within 2 business days.
           </p>
         </div>
 

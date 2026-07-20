@@ -33,7 +33,7 @@ export default function PortfolioGrid() {
           <h1>Experience our cinematic works</h1>
 
           <p>
-            We're passionate about what we do and are proud of our work.
+            We&apos;re passionate about what we do and are proud of our work.
           </p>
         </div>
 
