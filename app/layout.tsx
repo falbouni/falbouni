@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://YOUR-DOMAIN.com"), // Replace once your domain is live
+  metadataBase: new URL("https://falbouni.com"), // Replace once your domain is live
 
   title: {
     default: "Falbouni Productions",
