@@ -13,8 +13,8 @@ const projects = [
     href: "/portfolio/fragments",
   },
   {
-    image: "/images/projects/neo.png",
-    href: "/portfolio",
+    image: "/images/brand/GOETHE-expert-talk.png",
+    href: "/portfolio/representation",
   },
   {
     image: "/images/projects/you.png",

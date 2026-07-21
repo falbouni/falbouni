@@ -27,14 +27,14 @@ export default function Hero() {
 
             <h1 className={styles.title}>
               <span className={styles.gold}>
-                Static doesn’t
-                <br className={styles.mobileBreak} /> move people.
+                Analysis-driven
+                <br className={styles.mobileBreak} />
               </span>
 
               <br />
 
               <span className={styles.white}>
-                Analysis-based marketing does.
+                marketing.
               </span>
             </h1>
           </div>

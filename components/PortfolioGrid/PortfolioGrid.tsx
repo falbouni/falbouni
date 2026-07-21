@@ -20,9 +20,9 @@ const projects = [
     href: "/portfolio/fragments",
   },
   {
-    title: "Coming Soon",
-    image: "/images/projects/neo.png",
-    href: "",
+    title: "Representation",
+    image: "/images/brand/GOETHE-expert-talk.png",
+    href: "/portfolio/representation",
   },
 ];
 

@@ -1,0 +1,181 @@
+.page {
+    background: #000;
+    color: #fff;
+    min-height: 100vh;
+    padding-top: 280px;
+}
+
+.hero {
+    width: min(1500px, 92%);
+    margin: 0 auto;
+}
+
+.hero h1 {
+    max-width: 1100px;
+    font-size: 38px;
+    line-height: 1.08;
+    font-weight: 400;
+    color: var(--gold);
+    margin-bottom: 26px;
+}
+
+.intro {
+    max-width: 900px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: rgba(255,255,255,.78);
+    margin-bottom: 28px;
+}
+
+.heroVideo {
+    margin-top: 70px;
+}
+
+.heroVideo video {
+    width: 100%;
+    display: block;
+    border-radius: 2px;
+}
+
+/* ---------- Split Sections ---------- */
+
+.splitSection,
+.reverseSection {
+    width: min(1440px, 92%);
+    margin: 180px auto;
+}
+
+.splitGrid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 120px;
+    align-items: center;
+}
+
+.reverseSection .splitGrid {
+    grid-template-columns: 1.2fr 1fr;
+}
+
+.splitText h2 {
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 40px;
+}
+
+.gold,
+.white {
+    display: block;
+}
+
+.gold {
+    color: var(--gold);
+}
+
+.white {
+    color: #fff;
+}
+
+.splitText p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #9b948a;
+    margin-bottom: 28px;
+}
+
+.splitMedia img {
+    width: 100%;
+    display: block;
+}
+
+/* ---------- Next Project ---------- */
+
+.nextProject {
+    width: min(1500px, 92%);
+    margin: 80px auto 0;
+    padding-bottom: 1px;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nextLink {
+    display: inline-flex;
+    align-items: center;
+    gap: 22px;
+
+    text-decoration: none;
+    color: var(--gold);
+
+    font-size: 72px;
+    font-weight: 400;
+
+    transition: opacity .3s ease, transform .3s ease;
+}
+
+.arrow {
+    font-size: 82px;
+    line-height: 1;
+    transition: transform .3s ease;
+}
+
+.nextLink:hover {
+    opacity: .7;
+}
+
+.nextLink:hover .arrow {
+    transform: translateX(-12px);
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 900px) {
+
+    .page {
+        padding-top: 160px;
+    }
+
+    .hero h1,
+    .splitText h2 {
+        font-size: 42px;
+        line-height: 1.1;
+    }
+
+    .heroVideo {
+        margin-top: 40px;
+    }
+
+    .splitSection,
+    .reverseSection {
+        width: min(1500px, 92%);
+        margin: 100px auto;
+    }
+
+    .splitGrid,
+    .reverseSection .splitGrid {
+        grid-template-columns: 1fr;
+        gap: 48px;
+    }
+
+    /* Always show text before image on mobile */
+
+    .splitText {
+        order: 1;
+    }
+
+    .splitMedia {
+        order: 2;
+    }
+
+    .splitText p {
+        font-size: 17px;
+    }
+
+    .nextLink {
+        font-size: 42px;
+    }
+
+    .arrow {
+        font-size: 48px;
+    }
+}
