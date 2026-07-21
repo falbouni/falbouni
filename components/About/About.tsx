@@ -15,7 +15,7 @@ export default function About() {
 
               <div className={styles.copy}>
                 <p>
-                  I've been a creative producer working with VFX artists, and composers with over
+                  I have been a creative producer working with VFX artists, and composers with over
                   seven years of work behind me in tech and marketing.
                 </p>
 
