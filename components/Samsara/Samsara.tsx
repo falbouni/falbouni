@@ -58,7 +58,7 @@ export default function Samsara() {
               <video
                 controls
                 playsInline
-                poster="/images/samsara/announcement.jpg"
+                poster="/images/samsara/mirror-thumb.png"
               >
                 <source
                   src="/videos/samsara/samsara-launch.mp4"
@@ -111,7 +111,7 @@ export default function Samsara() {
               <video
                 controls
                 playsInline
-                poster="/images/samsara/explainer.jpg"
+                poster="/images/samsara/explainer-thumb.png"
               >
                 <source
                   src="/videos/samsara/nirvana-ecosystem.mp4"
@@ -135,7 +135,7 @@ export default function Samsara() {
               <video
                 controls
                 playsInline
-                poster="/images/samsara/trailer-1.jpg"
+                poster="/images/samsara/trailer1-thumb.png"
               >
                 <source
                   src="/videos/samsara/trailer1.mp4"
@@ -169,7 +169,7 @@ export default function Samsara() {
               <video
                 controls
                 playsInline
-                poster="/images/samsara/trailer-2.jpg"
+                poster="/images/samsara/trailer2-thumb.png"
               >
                 <source
                   src="/videos/samsara/trailer2.mp4"

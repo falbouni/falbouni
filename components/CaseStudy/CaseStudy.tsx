@@ -45,7 +45,7 @@ export default function CaseStudy() {
           <div className={styles.right}>
             <video
               controls
-              poster="/images/samsara-thumb.jpg"
+              poster="/images/BTF-thumb.png"
               className={styles.video}
             >
               <source src="/videos/break-the-floor.mp4" type="video/mp4" />

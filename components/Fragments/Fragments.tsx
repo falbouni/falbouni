@@ -91,7 +91,7 @@ export default function Fragments() {
               <video
                 controls
                 playsInline
-                poster="/images/fragments/video2.jpg"
+                poster="/images/fragments/alice-bob-thumb.png"
               >
                 <source
                   src="/videos/fragments/alice-and-bob.mp4"
@@ -148,7 +148,7 @@ export default function Fragments() {
               <video
                 controls
                 playsInline
-                poster="/images/fragments/video3.jpg"
+                poster="/images/fragments/coin.png"
               >
                 <source
                   src="/videos/fragments/falling-coin.mp4"
