@@ -72,7 +72,7 @@ export default function Representation() {
           <Reveal delay={0.15}>
             <div className={styles.splitMedia}>
               <img
-                src="/images/representation/goethe-expert-talk.png"
+                src="/images/representation/expert-talk.png"
                 alt="Conference presentation"
               />
             </div>
