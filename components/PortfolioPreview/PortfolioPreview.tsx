@@ -13,7 +13,7 @@ const projects = [
     href: "/portfolio/fragments",
   },
   {
-    image: "/images/brand/GOETHE-expert-talk.png",
+    image: "/images/representation/expert-talk.png",
     href: "/portfolio/representation",
   },
   {

@@ -21,7 +21,7 @@ const projects = [
   },
   {
     title: "Representation",
-    image: "/images/brand/expert-talk.png",
+    image: "/images/representation/expert-talk.png",
     href: "/portfolio/representation",
   },
 ];
