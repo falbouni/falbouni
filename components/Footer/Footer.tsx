@@ -13,7 +13,7 @@ export default function Footer() {
         <Reveal delay={0.1}>
           <div className={styles.content}>
             <div className={styles.left}>
-              <h2>Falbouni Productions</h2>
+              <h2>Fadi Albouni</h2>
             </div>
 
             <div className={styles.right}>

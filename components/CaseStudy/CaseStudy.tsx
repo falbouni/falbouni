@@ -20,7 +20,7 @@ export default function CaseStudy() {
 
             <div className={styles.copy}>
               <p>
-                We produced the <span className={styles.gold}>“Break The Floor”</span> hype campaign that opened the
+                I was the creative producer behind the <span className={styles.gold}>“Break The Floor”</span> hype campaign that opened the
                 Samsara launch.
               </p>
 

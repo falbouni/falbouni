@@ -8,10 +8,10 @@ export default function Intro() {
 
         <Reveal>
           <h2 className={styles.title}>
-            <span>We</span> build <span>hype</span> and make people care
-            <span> about your project</span>
+            <span>I</span> build <span>hype</span> and make people care
+            <span> about your company</span>
             <br />
-            <span>through storytelling and cinematic production.</span>
+            <span>through storytelling and market trends.</span>
           </h2>
         </Reveal>
 
@@ -22,7 +22,7 @@ export default function Intro() {
 
         <Reveal delay={0.2}>
           <h2 className={styles.secondtitle}>
-            <span>Projects that tell a story...</span>
+            <span>Because projects that tell a story</span>
             <br />
             don’t have to compete for attention anymore.
           </h2>

@@ -39,18 +39,16 @@ export default function Contact() {
         <Reveal>
           <div className={styles.left}>
             <h2 className={styles.title}>
-              Give your
+              Your marketing
               <br />
-              <span>project</span> the
+              Deserves 
               <br />
-              attention it
-              <br />
-              deserves.
+              <span>better</span>
             </h2>
 
             <p className={styles.subtitle}>
               Please submit the brief form below for a comprehensive consultation.
-              We&apos;ll get back to you within 2 business days.
+              I&apos;ll get back to you within 2 business days.
             </p>
           </div>
         </Reveal>

@@ -9,30 +9,28 @@ export default function About() {
           <Reveal>
             <div className={styles.content}>
               <h1>
-                <span className={styles.gold}>We are the</span>
-                <span className={styles.white}>storytellers.</span>
+                <span className={styles.gold}>I am a</span>
+                <span className={styles.white}>storyteller.</span>
               </h1>
 
               <div className={styles.copy}>
                 <p>
-                  We are a team of directors, VFX artists, and composers with over
-                  seven years of work behind us in film and television.
+                  I've been a creative producer working with VFX artists, and composers with over
+                  seven years of work behind me in tech and marketing.
                 </p>
 
                 <p>
-                  Original scores. Cinematic visuals.
+                  I aim for original scores and cinematic visuals.
                   <br />
-                  The kind of production that builds franchises and earns audiences.
+                  The kind of marketing that builds franchises and earns audiences.
                 </p>
 
                 <p>
-                  Our mission is to bring that standard to Web3.
+                  Data-backed strategy based on market analysis and current viral trends.
                 </p>
 
                 <p>
-                  That level of craft is missing from this space, and the projects
-                  that bring it in stop having to pay for the attention they
-                  deserve.
+                  All my work aims to deliver virality for you.
                 </p>
 
                 <p>

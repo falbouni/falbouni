@@ -11,17 +11,17 @@ export default function Samsara() {
           <p className={styles.label}>Samsara</p>
 
           <h1>
-            Samsara needed more than launch content. It needed a cinematic
-            campaign that delivered an emotional, memorable story.
+            Samsara needed a cinematic
+            campaign to deliver an emotional, memorable story.
           </h1>
 
           <p className={styles.intro}>
-            Across multiple productions, we helped shape the visual and
+            Across multiple productions, I helped shape the visual and
             narrative identity behind Samsara&apos;s launch.
           </p>
 
           <p className={styles.intro}>
-            The goal was to build anticipation and give the community a story
+            My goal was to build anticipation and give the community a story
             they could follow, believe in, and share.
           </p>
 
@@ -38,7 +38,7 @@ export default function Samsara() {
 
               <p>
                 For the grand announcement of Samsara&apos;s highly anticipated
-                launch, we created a cinematic VFX video designed to feel like
+                launch, I produced a cinematic VFX video designed to feel like
                 the culmination of the entire campaign.
               </p>
 
@@ -145,12 +145,12 @@ export default function Samsara() {
 
               <div className={styles.trailerText}>
                 <p>
-                  We produced Samsara launch trailers to build momentum as the
+                  I produced Samsara launch trailers to build momentum as the
                   launch date approached.
                 </p>
 
                 <p>
-                  With the two founders located in separate locations, we
+                  With the two founders located in separate locations, I
                   coordinated studio shoots in both locations, developed the
                   scripts, and directed the footage around a unified narrative.
                 </p>

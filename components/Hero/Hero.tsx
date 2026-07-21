@@ -34,7 +34,7 @@ export default function Hero() {
               <br />
 
               <span className={styles.white}>
-                Cinema does.
+                Analysis-based marketing does.
               </span>
             </h1>
           </div>

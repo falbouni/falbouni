@@ -41,7 +41,7 @@ export default function Fragments() {
             <div className={styles.splitText}>
               <h2>
                 <span className={styles.gold}>
-                  We built a series of
+                  Producing
                 </span>
 
                 <span className={styles.white}>
@@ -50,16 +50,16 @@ export default function Fragments() {
               </h2>
 
               <p>
-                We wanted to introduce the project on its own terms.
+                The goal was to introduce the project on its own terms.
               </p>
 
               <p>
                 Human directed, human scored, with AI visuals generated and
-                post-produced by our team.
+                post-produced by the team.
               </p>
 
               <p>
-                The score was written original to the campaign.
+                The score was produced, directed, and written original to the campaign.
                 <br />
                 Every frame was composed, color-treated, and cut by hand.
               </p>
@@ -105,7 +105,7 @@ export default function Fragments() {
             <div className={styles.splitText}>
               <h2>
                 <span className={styles.gold}>
-                  The result was a launch that
+                  The launch
                 </span>
 
                 <span className={styles.white}>
@@ -114,7 +114,7 @@ export default function Fragments() {
               </h2>
 
               <p>
-                Fragment is the work we point to when projects ask what
+                Fragment is the work I point to when companies ask what
                 AI-augmented production looks like.
               </p>
 
@@ -133,7 +133,7 @@ export default function Fragments() {
             <div className={styles.splitText}>
               <h2>
                 <span className={styles.gold}>
-                  It produced a campaign that
+                  The campaign
                 </span>
 
                 <span className={styles.white}>
