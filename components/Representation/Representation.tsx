@@ -151,7 +151,7 @@ export default function Representation() {
               </p>
 
               <p>
-                The strongest brands don't only exist online. They're represented
+                The strongest brands don’t only exist online. They’re represented
                 consistently everywhere they appear.
               </p>
             </div>
