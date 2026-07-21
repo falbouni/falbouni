@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Reveal from "../Reveal";
 import styles from "./PortfolioPreview.module.css";
 
 const projects = [
@@ -25,30 +26,37 @@ export default function PortfolioPreview() {
   return (
     <section className={styles.portfolio}>
       <div className={styles.container}>
-        <h2 className={styles.title}>
-          <span className={styles.gold}>A portfolio that</span> speaks for itself.
-        </h2>
+        <Reveal>
+          <h2 className={styles.title}>
+            <span className={styles.gold}>A portfolio that</span> speaks for
+            itself.
+          </h2>
+        </Reveal>
 
-        <div className={styles.grid}>
-          {projects.map((project, index) => (
-            <Link
-              key={`${project.href}-${index}`}
-              href={project.href}
-              className={styles.card}
-            >
-              <Image
-                src={project.image}
-                alt="Project"
-                fill
-                className={styles.image}
-              />
-            </Link>
-          ))}
-        </div>
+        <Reveal delay={0.15}>
+          <div className={styles.grid}>
+            {projects.map((project, index) => (
+              <Link
+                key={`${project.href}-${index}`}
+                href={project.href}
+                className={styles.card}
+              >
+                <Image
+                  src={project.image}
+                  alt="Project"
+                  fill
+                  className={styles.image}
+                />
+              </Link>
+            ))}
+          </div>
+        </Reveal>
 
-        <Link href="/portfolio" className={styles.button}>
-          See All Works
-        </Link>
+        <Reveal delay={0.3}>
+          <Link href="/portfolio" className={styles.button}>
+            See All Works
+          </Link>
+        </Reveal>
       </div>
     </section>
   );

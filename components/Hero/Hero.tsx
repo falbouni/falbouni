@@ -1,4 +1,5 @@
 import styles from "./Hero.module.css";
+import Reveal from "../Reveal";
 
 export default function Hero() {
   return (
@@ -18,25 +19,26 @@ export default function Hero() {
       </div>
 
       <div className="container">
-        <div className={styles.content}>
-          <p className={styles.eyebrow}>
-            STRATEGY • COPY • CREATIVE • MOTION
-          </p>
+        <Reveal>
+          <div className={styles.content}>
+            <p className={styles.eyebrow}>
+              STRATEGY • COPY • CREATIVE • MOTION
+            </p>
 
-          <h1 className={styles.title}>
-            <span className={styles.gold}>
-              Static doesn’t
-              <br className={styles.mobileBreak} />
-              {" "}move people.
-            </span>
+            <h1 className={styles.title}>
+              <span className={styles.gold}>
+                Static doesn’t
+                <br className={styles.mobileBreak} /> move people.
+              </span>
 
-            <br />
+              <br />
 
-            <span className={styles.white}>
-              Cinema does.
-            </span>
-          </h1>
-        </div>
+              <span className={styles.white}>
+                Cinema does.
+              </span>
+            </h1>
+          </div>
+        </Reveal>
       </div>
     </section>
   );

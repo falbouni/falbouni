@@ -1,3 +1,4 @@
+import Reveal from "../Reveal";
 import styles from "./Footer.module.css";
 
 export default function Footer() {
@@ -5,22 +6,24 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.container}>
 
-        <div className={styles.topLine}></div>
+        <Reveal>
+          <div className={styles.topLine}></div>
+        </Reveal>
 
-        <div className={styles.content}>
+        <Reveal delay={0.1}>
+          <div className={styles.content}>
+            <div className={styles.left}>
+              <h2>Falbouni Productions</h2>
+            </div>
 
-          <div className={styles.left}>
-            <h2>Falbouni Productions</h2>
+            <div className={styles.right}>
+              <p>
+                Cinematic storytelling, creatives, strategy, direction, and
+                copywriting for brands, founders and products.
+              </p>
+            </div>
           </div>
-
-          <div className={styles.right}>
-            <p>
-              Cinematic storytelling, creatives, strategy, direction, and
-              copywriting for brands, founders and products.
-            </p>
-          </div>
-
-        </div>
+        </Reveal>
 
         <div className={styles.bottom}>
           © {new Date().getFullYear()} Falbouni Productions. All rights reserved.
